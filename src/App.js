@@ -1,12 +1,14 @@
+import Counter from './components/Counter'
+import InputDisplay from './components/InputDisplay'
+
 function App() {
-
-  let count = 0
-
-  function countUp() {
-    count += 1
-    console.log(count)
-  }
-  return <div className="App"></div>
+  console.log('App Rendered')
+  return (
+    <>
+      <Counter />
+      <InputDisplay />
+    </>
+  )
 }
 
 export default App
