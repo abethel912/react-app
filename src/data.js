@@ -12,3 +12,5 @@ const data = [
     url: 'https://unsplash.com/s/photos/santorini'
   }
 ]
+
+export default data;
